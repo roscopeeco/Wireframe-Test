@@ -28,6 +28,6 @@ SHOWING THE MENU IN MOBILE MODE
 This was achieved in CSS with the use of the :target selector. Once the menu is opened it will remain opened until an item is 
 clicked. Even a page refresh keeps the setting so seems to be native bwehaviour.
 
-ARTILCE ASIDE LINKS
+ARTICLE ASIDE LINKS
 ===================
 I was unable to work out a method to float the aside links right and within the article paragraph in desktop mode. Flex-box may be able to achieve this but i  am unfamiliar with it's usage.

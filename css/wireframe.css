@@ -1,0 +1,233 @@
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+	font-size:20px;
+    box-sizing: border-box;
+}
+
+	.container
+	{
+		margin:0px auto;
+		width:100%;
+		padding:0em 1em;
+	}
+
+	img
+	{
+		width:100%;
+	}
+
+	a
+	{
+		text-decoration:none;
+	}
+
+	/* Sections */
+	section
+	{
+		float:left;
+	}
+
+	section.left
+	{
+		width:100%;
+	}
+
+	section.right
+	{
+		display:none;
+	}
+
+	
+	#logo img
+	{
+		width:4em;
+	}
+
+	#logo h1
+	{
+		display:none;
+		font-style:italic;
+		margin:0px;
+		line-height:2em;
+		padding-left:0.5em;
+	}	
+
+	.clearfloat
+	{
+		clear:both;
+	}
+
+	#social
+	{
+		display:none;
+		height:4em;
+		float:right;
+	}
+
+	#social img
+	{
+		width:4em;
+	}
+
+	#socialfooter
+	{
+	}
+
+	#socialfooter img
+	{
+		width:3em;
+	}
+
+	.col-3
+	{
+		width: 33.333%;
+		float: left;
+		text-align: center;
+	}
+
+	.col-6
+	{
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+	
+	.container > header > div
+	{
+		text-align:center;
+	}
+
+	.container > header:after
+	{
+		clear:both;
+	}
+	
+	#menucontainer
+	{
+		padding-top:2em;
+		text-align:center;
+	}
+	
+	.content
+	{
+		padding-top:2em;
+	}
+	
+	#menu
+	{
+		background-color:#ccc;
+		display:none;
+	}
+	
+	#menu:target
+	{	
+		display:block;
+	}	
+	
+	.menubutton,
+	.menuitem
+	{
+		background-color: #ccc;
+		padding: 0.25em;
+		text-align: center;
+		font-size:1.5em;
+	}
+
+	.menuitem
+	{
+		display:block;
+	}	
+	
+	section.right article
+	{
+		margin-top:2em;
+	}
+	
+	header h2,
+	header h3,
+	header p
+	{
+		margin:0em 0em 0.5em 0em;
+	}
+	
+	footer
+	{
+		background-color: #ccc;
+		height: 4em;
+		padding:0.5em;
+	}
+	
+@media screen and (min-width: 500px)
+{
+
+	/* Logo */
+	#logo,
+	#logo img,
+	#logo h1
+	{
+		float:left;
+	}
+	
+	#logo h1
+	{
+		display:block;
+	}
+
+}
+
+@media screen and (min-width: 800px)
+{
+
+	#social
+	{
+		display:block;
+	}
+
+	#socialfooter
+	{
+		display:none;
+	}
+
+	.menubutton
+	{
+		display:none;
+	}
+	
+	#menu
+	{
+		display:block;
+	}
+	
+	section.left
+	{
+		width:75%;
+	}
+
+	section.right
+	{
+		width:25%;
+		padding-left:1rem;
+		display:block;
+	}
+	
+	.col-6
+	{
+		width: 16.666%;
+	}
+	
+}
+	
+@media screen and (min-width: 1300px)
+{
+	.container
+	{
+		width:1300px;
+	}
+}
